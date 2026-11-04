@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Alexis Pucheta — Senior Software Engineer"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "expertise": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "toggleTheme": "Cambiar modo oscuro",
+    "switchLanguage": "Switch to English"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "role": "Senior Software Engineer",
+    "specialty": "Especialista en Mobile y Frontend",
+    "tagline": "Construyo productos mobile y web resilientes y de alto rendimiento para fintechs, banca digital y e-commerce.",
+    "ctaContact": "Contactame",
+    "ctaCv": "Descargar CV",
+    "available": "Abierto a nuevas oportunidades"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "summary": "Ingeniero Electrónico y Desarrollador de Software con más de 9 años de experiencia liderando y construyendo soluciones tecnológicas a gran escala para fintechs, banca digital y e-commerce. Especializado en ecosistemas mobile y arquitecturas frontend web, con fuerte foco en resiliencia, Clean Architecture, Feature Flags, métricas, mitigación de vulnerabilidades y optimización de rendimiento.",
+    "stats": {
+      "years": "Años de experiencia",
+      "companies": "Empresas",
+      "frameworks": "Frameworks mobile y web"
+    },
+    "education": {
+      "title": "Educación",
+      "degree": "Ingeniería Electrónica",
+      "school": "Universidad Nacional de Rosario"
+    },
+    "languages": {
+      "title": "Idiomas",
+      "spanish": "Español",
+      "spanishLevel": "Nativo",
+      "english": "Inglés",
+      "englishLevel": "Profesional / Conversacional (B2)"
+    }
+  },
+  "expertise": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologías y herramientas que uso para entregar productos confiables.",
+    "groups": {
+      "mobile": "Mobile y Frameworks",
+      "languages": "Lenguajes y Core",
+      "backend": "Backend y Cloud",
+      "devops": "DevOps, QA y Herramientas"
+    },
+    "focusTitle": "En qué me enfoco",
+    "focus": ["Clean Architecture", "Feature Flags y A/B testing", "Backend-Driven UI", "Rendimiento", "Seguridad y fixes de pentest", "Métricas y analítica", "Mentoría"]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Un recorrido por mi trayectoria profesional.",
+    "present": "Actualidad",
+    "items": {
+      "itti": {
+        "role": "Senior Software Engineer",
+        "bullets": [
+          "Lideré el ciclo técnico de releases con despliegues continuos a producción para soluciones core de banca digital mobile y web, garantizando transacciones seguras y alta disponibilidad.",
+          "Implementé y orquesté Feature Flags (Unleash) para rollouts progresivos, segmentación masiva y A/B testing, habilitando kill switches y releases sin riesgo.",
+          "Diseñé y desarrollé arquitecturas Backend-Driven UI (BDUI) usando BFFs en Node.js para controlar layouts de Flutter dinámicamente sin requerir actualizaciones en las tiendas.",
+          "Construí arquitecturas descentralizadas, componentes reutilizables y patrones de diseño reactivos.",
+          "Aceleré el ciclo de entrega y aumenté la cobertura de código mediante flujos asistidos por IA (Cursor), automatizando la generación de tests unitarios y optimizando el análisis de Pull Requests."
+        ]
+      },
+      "goiar": {
+        "role": "Frontend Developer",
+        "bullets": [
+          "Desarrollé una plataforma fintech de comercialización y liquidación de granos con React y TypeScript.",
+          "Construí una aplicación mobile con React Native enfocada en flujos de onboarding y validación de identidad para e-commerce.",
+          "Configuré y mantuve pipelines de CI/CD para builds de Android (APK/AAB) e iOS (IPA), y resolví vulnerabilidades críticas detectadas en pentesting."
+        ]
+      },
+      "radium": {
+        "role": "Full Stack Engineer / Tech Lead",
+        "bullets": [
+          "Lideré equipos frontend en proyectos fintech internacionales (MERN Stack) y plataformas inmobiliarias de EE.UU./Canadá (MEVN Stack).",
+          "Diseñé librerías internas y design systems utilizados por múltiples células de desarrollo (Storybook).",
+          "Implementé testing unitario riguroso (Vitest, Jest) y brindé mentoría técnica a desarrolladores junior y trainees."
+        ]
+      },
+      "tbm": {
+        "role": "Desarrollador Full Stack y Sistemas Embebidos",
+        "bullets": [
+          "Desarrollé interfaces web en tiempo real conectadas a sensores industriales para medición y control de variables de proceso.",
+          "Integré bases de datos MongoDB y programé microcontroladores acoplados a instrumentación electrónica."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Hablemos",
+    "title": "Trabajemos juntos",
+    "subtitle": "¿Tenés un proyecto en mente o una oportunidad para conversar? Mandame un mensaje y te respondo a la brevedad.",
+    "info": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "location": "Ubicación"
+    },
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "vos@ejemplo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿En qué te puedo ayudar?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Contame sobre tu proyecto...",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te respondo lo antes posible.",
+      "error": "Algo salió mal. Intentá de nuevo o escribime directamente por email.",
+      "notConfigured": "El formulario todavía no está configurado. Escribime directamente por email.",
+      "errors": {
+        "nameRequired": "Ingresá tu nombre.",
+        "emailInvalid": "Ingresá un email válido.",
+        "messageRequired": "Escribí un mensaje (al menos 10 caracteres)."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Hecho con React y Firebase"
+  }
+}

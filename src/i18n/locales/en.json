@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Alexis Pucheta — Senior Software Engineer"
+  },
+  "nav": {
+    "about": "About",
+    "expertise": "Expertise",
+    "experience": "Experience",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle dark mode",
+    "switchLanguage": "Cambiar a español"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Senior Software Engineer",
+    "specialty": "Mobile & Frontend Specialist",
+    "tagline": "I build resilient, high-performance mobile and web products for fintechs, digital banking and e-commerce.",
+    "ctaContact": "Contact me",
+    "ctaCv": "Download CV",
+    "available": "Open to new opportunities"
+  },
+  "about": {
+    "title": "About me",
+    "summary": "Electronic Engineer and Software Developer with over 9 years of experience leading and building large-scale technological solutions for fintechs, digital banking, and e-commerce. Specialized in mobile ecosystems and frontend web architectures, with a strong focus on resilience, Clean Architecture, Feature Flags, metrics, vulnerability mitigation, and performance optimization.",
+    "stats": {
+      "years": "Years of experience",
+      "companies": "Companies",
+      "frameworks": "Mobile & web frameworks"
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Electronic Engineering",
+      "school": "Universidad Nacional de Rosario"
+    },
+    "languages": {
+      "title": "Languages",
+      "spanish": "Spanish",
+      "spanishLevel": "Native",
+      "english": "English",
+      "englishLevel": "Professional / Conversational (B2)"
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "subtitle": "Technologies and tools I use to ship reliable products.",
+    "groups": {
+      "mobile": "Mobile & Frameworks",
+      "languages": "Languages & Core",
+      "backend": "Backend & Cloud",
+      "devops": "DevOps, QA & Tools"
+    },
+    "focusTitle": "What I focus on",
+    "focus": ["Clean Architecture", "Feature Flags & A/B testing", "Backend-Driven UI", "Performance", "Security & pentest fixes", "Metrics & analytics", "Mentoring"]
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "A timeline of my professional journey.",
+    "present": "Present",
+    "items": {
+      "itti": {
+        "role": "Senior Software Engineer",
+        "bullets": [
+          "Led the technical release cycle with continuous deployments to production for core mobile and web digital banking solutions, ensuring secure transactions and high availability.",
+          "Implemented and orchestrated Feature Flags (Unleash) for progressive rollouts, massive segmentation, and A/B testing, enabling kill switches and zero-risk releases.",
+          "Designed and developed Backend-Driven UI (BDUI) architectures using Node.js BFFs to control Flutter layouts dynamically without requiring app store updates.",
+          "Built decentralized architectures, reusable components, and reactive design patterns.",
+          "Accelerated the delivery cycle and increased code coverage through AI-assisted workflows (Cursor), automating unit test generation and optimizing Pull Request analysis."
+        ]
+      },
+      "goiar": {
+        "role": "Frontend Developer",
+        "bullets": [
+          "Developed a fintech platform for grain trading and settlement using React and TypeScript.",
+          "Built a mobile application with React Native focused on onboarding flows and identity validation for e-commerce.",
+          "Configured and maintained CI/CD build pipelines for Android (APK/AAB) and iOS (IPA), and resolved critical vulnerabilities identified during pentesting."
+        ]
+      },
+      "radium": {
+        "role": "Full Stack Engineer / Tech Lead",
+        "bullets": [
+          "Led frontend teams in international fintech projects (MERN Stack) and US/Canada real estate platforms (MEVN Stack).",
+          "Architected internal libraries and design systems used by multiple development cells (Storybook).",
+          "Implemented rigorous unit testing (Vitest, Jest) and provided technical mentoring to junior and trainee developers."
+        ]
+      },
+      "tbm": {
+        "role": "Full Stack & Embedded Systems Developer",
+        "bullets": [
+          "Developed real-time web interfaces connected to industrial sensors for process variable measurement and control.",
+          "Integrated MongoDB databases and programmed microcontrollers coupled with electronic instrumentation."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Let's work together",
+    "subtitle": "Have a project in mind or an opportunity to discuss? Send me a message and I'll get back to you soon.",
+    "info": {
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "location": "Location"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can I help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! I'll reply as soon as possible.",
+      "error": "Something went wrong. Please try again or email me directly.",
+      "notConfigured": "The contact form is not configured yet. Please email me directly.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailInvalid": "Please enter a valid email.",
+        "messageRequired": "Please write a message (at least 10 characters)."
+      }
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with React & Firebase"
+  }
+}
