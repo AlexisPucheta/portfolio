@@ -59,18 +59,15 @@ export function Hero() {
             aria-hidden="true"
             className="pointer-events-none absolute -inset-20 rounded-full bg-radial from-primary/25 via-primary/5 to-transparent to-70% dark:from-primary/35"
           />
-          {/* Flat top lets the head overflow the ring; rounded-b-full clips the body to the circle. */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-b-full">
-            <div className="absolute inset-x-0 bottom-0 aspect-square rounded-full border-4 border-primary bg-surface shadow-2xl shadow-primary/30" />
+          <div className="relative rounded-full border-4 border-primary p-2 shadow-2xl shadow-primary/30">
             <img
               src={profilePhoto}
               alt={profile.name}
               width={520}
-              height={744}
+              height={520}
               fetchPriority="high"
-              className="absolute bottom-0 left-1/2 w-[88%] -translate-x-1/2"
+              className="aspect-square w-full rounded-full object-cover"
             />
-            <div className="absolute inset-x-0 bottom-0 aspect-square rounded-full border-4 border-primary [clip-path:inset(55%_0_0_0)]" />
           </div>
         </div>
       </div>
