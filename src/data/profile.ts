@@ -15,7 +15,7 @@ export const profile = {
   careerStart: 2015,
   cv: {
     en: '/cv/AlexisPucheta2026en.pdf',
-    es: '/cv/AlexisPucheta2026en.pdf',
+    es: '/cv/AlexisPucheta2026es.pdf',
   } satisfies Record<Language, string>,
   education: { start: 2010, end: 2018 },
 }

@@ -15,7 +15,7 @@ npm run dev
 - **Texts (both languages):** `src/i18n/locales/en.json` and `src/i18n/locales/es.json`. Keys are type-checked against `en.json`, so a missing key fails the build.
 - **Non-translatable data** (email, LinkedIn, dates, tech names, CV path): `src/data/profile.ts`.
 - **Adding a job:** add an entry to `experience` in `profile.ts` and a matching `experience.items.<id>` block in both locale files.
-- **CV files:** `public/cv/`. Point `profile.cv.es` to a Spanish PDF once you have one.
+- **CV files:** `public/cv/` (one PDF per language, mapped in `profile.cv`).
 
 ## EmailJS setup
 
